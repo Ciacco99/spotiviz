@@ -17,5 +17,6 @@ module.exports = {
     },
   },
   plugins: [require('@tailwindcss/typography')],
+  presets: [require('tailwind-gradients')],
   darkMode: 'class',
 };
